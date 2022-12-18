@@ -1,13 +1,14 @@
 import React from 'react';
 import ProductPropertyTag from './ProductPropertyTag';
+import QuantitySelectPanel from './QuantitySelectPanel';
 import '../Styles/Components/ProductCard.scss';
 
 // images
 import microsoft from '../assets/images/365.png';
 import autocad from '../assets/images/Autocad.jpg';
 import vmware from '../assets/images/Vmware.jpg';
-import QuantitySelectPanel from './QuantitySelectPanel';
-// import shoppingcart from '../assets/images/shoppingcartgreen.png';
+import azure from '../assets/images/Azure.png';
+import skype from '../assets/images/Skype.jpeg';
 
 const ProductCard = ({
     data = {
@@ -24,13 +25,19 @@ const ProductCard = ({
     const product = data;
     const producerName = product["Fabricante"];
 
+    let isAzure = product['Nombre del Producto'].indexOf('Azure') !== -1;
+    let isSkype = product['Nombre del Producto'].indexOf('Skype') !== -1;
+
+    let msImage = isAzure ? azure : isSkype ? skype : microsoft;
+        
+            
     return (
         <div className='product-card-container'>
             <div className='product-img-info-container'>
                 <div className='product-logo-container'>
                     <img 
                         className='product-logo' 
-                        src={producerName === 'Microsoft' ? microsoft : producerName === 'Autodesk' ? autocad : vmware} 
+                        src={producerName === 'Microsoft' ? msImage : producerName === 'Autodesk' ? autocad : vmware} 
                         alt={'brand-logo'} 
                     />
                 </div>
