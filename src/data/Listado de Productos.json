@@ -1,0 +1,123 @@
+    
+    [
+        {
+            "Nombre del Producto": "Office 365 Business Premium",
+            "Descripción": "Suscripcion",
+            "Fabricante": "Microsoft",
+            "Id del Articulo": "031c9-e47.",
+            "Precio del producto": 10.53,
+            "Nombre de Imagen": 365
+        },
+        {
+            "Nombre del Producto": "Azure Active Directory Basic  Government Pricing",
+            "Descripción": "A robust set of capabilities to empower organizations with more demanding needs on identity and access management.",
+            "Fabricante": "Microsoft",
+            "Id del Articulo": "0a798-3cd.",
+            "Precio del producto": 0.89,
+            "Nombre de Imagen": "Azure"
+        },
+        {
+            "Nombre del Producto": "Exchange Online Protection  Government Pricing",
+            "Descripción": "Advanced anti-malware and anti-spam protection for email deployments.",
+            "Fabricante": "Microsoft",
+            "Id del Articulo": "0cca4-4d6.",
+            "Precio del producto": 0.89,
+            "Nombre de Imagen": "Default"
+        },
+        {
+            "Nombre del Producto": "Project Pro for Office 365 (Government Pricing)",
+            "Descripción": "Sin descripción",
+            "Fabricante": "Microsoft",
+            "Id del Articulo": "11e3c-9a9.",
+            "Precio del producto": 22.22,
+            "Nombre de Imagen": 365
+        },
+        {
+            "Nombre del Producto": "Skype for Business Online  Plan 2",
+            "Descripción": "Unified communications plan with advanced capabilities including enterprise Instant Messaging, Presence and online meetings with audio and video conferencing and multiparty data sharing.",
+            "Fabricante": "Microsoft",
+            "Id del Articulo": "14c61-739.",
+            "Precio del producto": 4.63,
+            "Nombre de Imagen": "Default"
+        },
+        {
+            "Nombre del Producto": "Autodesk AutoCAD Commercial Single-user Annual Subscription Renewal Recurring with Basic Support",
+            "Descripción": "Autodesk AutoCAD Commercial Single-user Annual Subscription Renewal Recurring with Basic Support",
+            "Fabricante": "Autodesk",
+            "Id del Articulo": "001I1-004640-T585",
+            "Precio del producto": 1175,
+            "Nombre de Imagen": "Autocad"
+        },
+        {
+            "Nombre del Producto": "Autodesk AutoCAD 2017 Commercial New Single-user Additional Seat Annual Auto-Renew Subscription with",
+            "Descripción": "Autodesk AutoCAD 2017 Commercial New Single-user Additional Seat Annual Auto-Renew Subscription with Advanced Support",
+            "Fabricante": "Autodesk",
+            "Id del Articulo": "001I1-003126-T227",
+            "Precio del producto": 1225,
+            "Nombre de Imagen": "Autocad"
+        },
+        {
+            "Nombre del Producto": "AutoCAD Commercial Single-user Monthly Subscription Renewal Recurring",
+            "Descripción": "Autodesk AutoCAD Commercial Single-user Monthly Subscription Renewal Recurring with Advanced Support",
+            "Fabricante": "Autodesk",
+            "Id del Articulo": "001I1-001563-T142",
+            "Precio del producto": 160,
+            "Nombre de Imagen": "Autocad"
+        },
+        {
+            "Nombre del Producto": "Autodesk AutoCAD 2017 Commercial New Single-user Additional Seat Annual Auto-Renew Subscription with",
+            "Descripción": "Autodesk AutoCAD 2017 Commercial New Single-user Additional Seat Annual Auto-Renew Subscription with Advanced Support SPZD",
+            "Fabricante": "Autodesk",
+            "Id del Articulo": "001I1-006876-T671",
+            "Precio del producto": 1225,
+            "Nombre de Imagen": "Autocad"
+        },
+        {
+            "Nombre del Producto": "Autodesk AutoCAD 2017 Commercial New Single-user Additional Seat Monthly Auto-Renew Subscription wit",
+            "Descripción": "Autodesk AutoCAD 2017 Commercial New Single-user Additional Seat Monthly Auto-Renew Subscription with Advanced Support",
+            "Fabricante": "Autodesk",
+            "Id del Articulo": "001I1-006286-T605",
+            "Precio del producto": 155,
+            "Nombre de Imagen": "Autocad"
+        },
+        {
+            "Nombre del Producto": "VCPP 1800 Monthly Rental overage charges",
+            "Descripción": "Sin descripción",
+            "Fabricante": "VMWARE",
+            "Id del Articulo": "VSPP-1800-1-RENT-S",
+            "Precio del producto": 0.9,
+            "Nombre de Imagen": "Vmware"
+        },
+        {
+            "Nombre del Producto": "VCPP 3600 Monthly Rental overage charges",
+            "Descripción": "Sin descripción",
+            "Fabricante": "VMWARE",
+            "Id del Articulo": "VSPP-3600-1-RENT-S",
+            "Precio del producto": 0.78,
+            "Nombre de Imagen": "Vmware"
+        },
+        {
+            "Nombre del Producto": "VCPP 10800 Monthly Rental overage charges",
+            "Descripción": "Sin descripción",
+            "Fabricante": "VMWARE",
+            "Id del Articulo": "VSPP-10800-1-RENT-S",
+            "Precio del producto": 0.72,
+            "Nombre de Imagen": "Vmware"
+        },
+        {
+            "Nombre del Producto": "VCPP 18000 Monthly Rental overage charges",
+            "Descripción": "Sin descripción",
+            "Fabricante": "VMWARE",
+            "Id del Articulo": "VSPP-18000-1-RENT-S",
+            "Precio del producto": 0.66,
+            "Nombre de Imagen": "Vmware"
+        },
+        {
+            "Nombre del Producto": "VCPP 30000 Monthly Rental overage charges",
+            "Descripción": "Sin descripción",
+            "Fabricante": "VMWARE",
+            "Id del Articulo": "VSPP-30000-1-RENT-S",
+            "Precio del producto": 0.6,
+            "Nombre de Imagen": "Vmware"
+        }
+    ]

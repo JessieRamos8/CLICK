@@ -1,0 +1,18 @@
+// colors
+
+$yellow-mustard: #d59739;
+$green-btns: #6D9B3D;
+$red-btns: #BC243E;
+$blue-btn-large: #03529D;
+$blue-search-btn: #2063A1;
+$blue-bar: #4C7Ba9;
+$green-btn-add: #AFC894;
+
+
+// mixins
+
+@mixin center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

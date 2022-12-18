@@ -1,0 +1,66 @@
+@import '../variables.scss';
+
+.buttons-navigation-container {
+    display: grid;
+    grid-template-columns: 54% 15% 10% 10% 6% 5%;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    color: #fff;
+    justify-content: right;
+    img {
+        margin-right: 5px;
+    }
+    .view-products-button {
+        width: 40%;
+        @include center;
+        background-color: $blue-btn-large;
+        justify-self: right;
+        &:hover {
+            background-color: $blue-bar;
+        }
+    }
+    .client-select {
+        @include center;
+        background-color: $yellow-mustard;
+        &:hover {
+            background-color: $blue-bar;
+        }
+    }
+    .siclick-button {
+        @include center;
+        background-color: $green-btns;
+        &:hover {
+            background-color: $blue-bar;
+        }
+    }
+    .support-button {
+        @include center;
+        background-color: $red-btns;
+        &:hover {
+            background-color: $blue-bar;
+        }
+    }
+    .shopping-cart-button {
+        @include center;
+        background-color: $blue-bar;
+        font-weight: 900;
+        &:hover {
+            background-color: $blue-bar;
+        }
+    }
+    .account-select {
+        @include center;
+        background-color: $red-btns;
+        &:hover {
+            background-color: $blue-bar;
+        }
+    }
+    .selected {
+        @include center;
+        background-color: $blue-bar;
+        &:hover {
+            background-color: $blue-bar;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+@import '../variables.scss';
+
+.search-bar-container {
+    display: flex;
+    width: 95%;
+    .search-input {
+        width: 90%;
+        padding-left: 10px;
+        color: rgba(120, 120, 120, 0.744);
+    }
+    .search-input::placeholder {
+        color: rgba(193, 193, 193, 0.744);
+    }
+    .search-button {
+        @include center;
+        width: 20%;
+        background-color: $blue-btn-large;
+        padding: 6px 10px 6px 10px;
+        color: #fff;
+        font-size: 1.1rem;
+        font-weight: 500;
+        text-decoration: none;
+        cursor: pointer;
+        border: 1px solid #656565;
+        &:hover {
+            background-color: $blue-btn-large;
+            box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+        }
+    }
+}

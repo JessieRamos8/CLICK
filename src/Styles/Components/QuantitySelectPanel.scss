@@ -1,0 +1,80 @@
+@import '../variables.scss';
+
+.product-quantity-select-container {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    .quantity-config-container {
+        width: 100%;
+        padding: 15px;
+        grid-template-rows: 30% 30% 40%;
+        justify-content: left;
+        .product-config-title {
+            font-size: .9rem;
+            font-weight: 800;
+            text-align: left;
+        }
+        .information-tag-container {
+            display: flex;
+            .information-tag {
+                font-size: .8rem;
+                font-weight: 800;
+                margin-right: 10px;
+            }
+            .light {
+                color: #b4b4b4;
+            }
+        }
+        .quantity-select-container {
+            display: flex;
+            height: 22px;
+            .shopping-cart-tag {
+                @include center;
+                width: 10%;
+                height: 25px;
+                background-color: $green-btns;
+                border: 1px solid #8e8e8e;
+                img {
+                    width: 80%;
+                }
+            }
+            .quantity-input {
+                width: 75%;
+                height: 23px;
+                border: 1px solid #8e8e8e;
+                padding-left: 5px;
+                &::placeholder {
+                    color: #a8a8a8;
+                    font-size: .7rem;
+                }
+            }
+        }
+    }
+    .price-calculation-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: flex-end;
+        .total-tag {
+            margin-right: 20px;
+            font-size: .8rem;
+            color: #525252;
+        }
+        .add-shopping-cart-button {
+            @include center;
+            background-color: $green-btn-add;
+            color: #fff;
+            margin: 10px 30px 30px 30px;
+            width: 120px;
+            height: 40px;
+            padding: 9px 10px 9px 10px;
+            font-size: .7rem;
+            font-weight: normal;
+            text-decoration: none;
+            cursor: pointer;
+            border: 1px solid #a8a8a8;
+            &:hover {
+                background-color: $green-btns;
+            }
+        }
+    }
+}

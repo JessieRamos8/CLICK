@@ -1,0 +1,15 @@
+.select-filter-container {
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .select-filter-label {
+        font-size: .7rem;
+        margin-bottom: 7px;
+    }
+    .filter-select {
+        width: 100%;
+        height: 30px;
+        border: 2px solid rgb(185, 185, 185);
+    }
+}
