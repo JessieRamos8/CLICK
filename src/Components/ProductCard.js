@@ -29,7 +29,25 @@ const ProductCard = ({
     let isSkype = product['Nombre del Producto'].indexOf('Skype') !== -1;
 
     let msImage = isAzure ? azure : isSkype ? skype : microsoft;
-        
+    
+    const productTags = [
+        {
+            title: 'Descripción:',
+            data: product["Descripción"]
+        },
+        {
+            title: 'Fabricante:',
+            data: product["Fabricante"]
+        },
+        {
+            title: 'Artículo Id:',
+            data: product["Id del Articulo"]
+        },
+        {
+            title: 'Precio:',
+            data: product["Precio del producto"]
+        },
+    ]
             
     return (
         <div className='product-card-container'>
@@ -44,10 +62,11 @@ const ProductCard = ({
                 <div className='product-info-container'>
                     <h2 className='product-name'>{product["Nombre del Producto"]}</h2>
                     <div className='product-characteristics-container'>
-                        <ProductPropertyTag title={'Descripción:'} data={product["Descripción"]} />
-                        <ProductPropertyTag title={'Fabricante:'} data={product["Fabricante"]} />
-                        <ProductPropertyTag title={'Artículo Id:'} data={product["Id del Articulo"]} />
-                        <ProductPropertyTag title={'Precio:'} data={product["Precio del producto"]} />
+                        {
+                            productTags.map( tag =>
+                                <ProductPropertyTag title={tag.title} data={tag.data} />
+                            )
+                        }
                     </div>
                 </div>
             </div>
