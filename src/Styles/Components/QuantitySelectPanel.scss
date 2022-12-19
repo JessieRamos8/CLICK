@@ -52,7 +52,7 @@
     .price-calculation-container {
         display: flex;
         flex-direction: column;
-        justify-content: end;
+        justify-content: flex-end;
         align-items: flex-end;
         .total-tag {
             margin-right: 20px;
